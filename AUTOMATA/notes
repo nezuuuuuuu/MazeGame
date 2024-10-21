@@ -1,0 +1,7 @@
+https://graphviz.org/download/
+graphviz-12.1.2 (64-bit) EXE installer [sha256] version I download
+check add to path na option
+
+pip install graphviz
+pip install pygame
+
