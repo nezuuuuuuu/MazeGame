@@ -16,11 +16,11 @@ Maze Game is an interactive game where players navigate through a maze to reach 
 ## Getting Started
 To run the Maze Game, make sure you have Python and Pygame installed. You can install Pygame using pip:
 
-```bash
-pip install pygame
-pip install graphviz
-
 ##downloads
 https://graphviz.org/download/
 graphviz-12.1.2 (64-bit) EXE installer [sha256] version I download
+
+```bash
+pip install pygame
+pip install graphviz
 
