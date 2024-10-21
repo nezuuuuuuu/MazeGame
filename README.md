@@ -1,7 +1,7 @@
 # MazeGame
 DFA usage
 
-![Maze Game Peak](Sample_pic.png)  
+![Maze Game Peak](sample_pic.png)  
 
 ## Project Overview
 Maze Game is an interactive game where players navigate through a maze to reach a specified goal. The player can move through the maze using keyboard controls and must avoid walls.
