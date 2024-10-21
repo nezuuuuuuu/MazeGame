@@ -19,3 +19,8 @@ To run the Maze Game, make sure you have Python and Pygame installed. You can in
 ```bash
 pip install pygame
 pip install graphviz
+
+##downloads
+https://graphviz.org/download/
+graphviz-12.1.2 (64-bit) EXE installer [sha256] version I download
+
