@@ -684,12 +684,21 @@ transitions = {
 ('q169','s'):'q169' ,
 ('q169','d'):'q169' ,
 }
-mydict = {i: f'q{i-2}' for i in range(2, 172)}
-
 start_state = None
 accept_states = []
+
+def set_endstate():
+
+    transitions[(str(accept_states[0]),'a')]=str(accept_states[0])
+    transitions[(str(accept_states[0]),'w')]=str(accept_states[0])
+    transitions[(str(accept_states[0]),'s')]=str(accept_states[0])
+    transitions[(str(accept_states[0]),'d')]=str(accept_states[0])
+mydict = {i: f'q{i-2}' for i in range(2, 172)}
+
+
 def plot_dfa( ):
     global states, alphabet,transitions,start_state,accept_states
+    set_endstate()
     print(f'start state: {start_state}')
     print(f'end states: ',end=' ')
     for row in accept_states:
