@@ -192,7 +192,7 @@ digraph {
 	q94
 	node [fixedsize=true height=0.5 shape=circle width=0.5]
 	q95
-	node [fixedsize=true height=0.5 shape=circle width=0.5]
+	node [fixedsize=true height=0.5 shape=doublecircle width=0.5]
 	q96
 	node [fixedsize=true height=0.5 shape=circle width=0.5]
 	q97
@@ -316,7 +316,7 @@ digraph {
 	q156
 	node [fixedsize=true height=0.5 shape=circle width=0.5]
 	q157
-	node [fixedsize=true height=0.5 shape=doublecircle width=0.5]
+	node [fixedsize=true height=0.5 shape=circle width=0.5]
 	q158
 	node [fixedsize=true height=0.5 shape=circle width=0.5]
 	q159
@@ -341,7 +341,7 @@ digraph {
 	node [fixedsize=true height=0.5 shape=circle width=0.5]
 	q169
 	node [shape=none]
-	"" -> q103 [label=Start arrowhead=normal color=red fontcolor=red penwidth=5]
+	"" -> q45 [label=Start arrowhead=normal color=red fontcolor=red penwidth=5]
 	q0 -> q0 [label=w]
 	q0 -> q0 [label=a]
 	q0 -> q14 [label=s]
@@ -727,9 +727,9 @@ digraph {
 	q95 -> q95 [label=s]
 	q95 -> q96 [label=d]
 	q96 -> q96 [label=w]
-	q96 -> q95 [label=a]
+	q96 -> q96 [label=a]
 	q96 -> q96 [label=s]
-	q96 -> q97 [label=d]
+	q96 -> q96 [label=d]
 	q97 -> q97 [label=w]
 	q97 -> q96 [label=a]
 	q97 -> q103 [label=s]
@@ -974,10 +974,10 @@ digraph {
 	q157 -> q157 [label=a]
 	q157 -> q157 [label=s]
 	q157 -> q158 [label=d]
-	q158 -> q158 [label=w]
-	q158 -> q158 [label=a]
-	q158 -> q158 [label=s]
-	q158 -> q158 [label=d]
+	q158 -> q144 [label=w]
+	q158 -> q157 [label=a]
+	q158 -> q168 [label=s]
+	q158 -> q159 [label=d]
 	q159 -> q145 [label=w]
 	q159 -> q158 [label=a]
 	q159 -> q169 [label=s]
